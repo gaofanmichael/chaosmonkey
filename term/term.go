@@ -188,6 +188,7 @@ func PickRandomInstance(group grp.InstanceGroup, cfg chaosmonkey.AppConfig, app 
 	if len(instances) == 0 {
 		return nil, false
 	}
+	log.Println("chaosmonkey pick random instance")
 
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	index := r.Intn(len(instances))
