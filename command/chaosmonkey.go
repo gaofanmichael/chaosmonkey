@@ -25,15 +25,15 @@ import (
 
 	flag "github.com/spf13/pflag"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/clock"
-	"github.com/Netflix/chaosmonkey/config"
-	"github.com/Netflix/chaosmonkey/config/param"
-	"github.com/Netflix/chaosmonkey/deps"
-	"github.com/Netflix/chaosmonkey/mysql"
-	"github.com/Netflix/chaosmonkey/schedstore"
-	"github.com/Netflix/chaosmonkey/schedule"
-	"github.com/Netflix/chaosmonkey/spinnaker"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/clock"
+	"github.com/gaofanmichael/chaosmonkey/config"
+	"github.com/gaofanmichael/chaosmonkey/config/param"
+	"github.com/gaofanmichael/chaosmonkey/deps"
+	"github.com/gaofanmichael/chaosmonkey/mysql"
+	"github.com/gaofanmichael/chaosmonkey/schedstore"
+	"github.com/gaofanmichael/chaosmonkey/schedule"
+	"github.com/gaofanmichael/chaosmonkey/spinnaker"
 )
 
 // Version is the version number

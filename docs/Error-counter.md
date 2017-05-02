@@ -6,8 +6,8 @@ Inside of Netflix, we use an error counter to record error counts to [Atlas](htt
 If you wish to record the error counts with an external system, you need to:
 
 1. Give your error counter a name (e.g., "ganglia")
-1. Code up a type in Go that implements the [ErrorCounter](https://godoc.org/github.com/Netflix/chaosmonkey/#ErrorCounter) interface
-1. Modify [errorcounter.go](https://github.com/Netflix/chaosmonkey/blob/master/errorcounter/errorcounter.go) so that it recognizes your error counter.
+1. Code up a type in Go that implements the [ErrorCounter](https://godoc.org/github.com/gaofanmichael/chaosmonkey/#ErrorCounter) interface
+1. Modify [errorcounter.go](https://github.com/gaofanmichael/chaosmonkey/blob/master/errorcounter/errorcounter.go) so that it recognizes your error counter.
 1. Edit your [config file](Configuration File Format) to specify your error counter.
 
 ---

@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/config"
-	"github.com/Netflix/chaosmonkey/config/param"
-	"github.com/Netflix/chaosmonkey/mock"
-	"github.com/Netflix/chaosmonkey/schedule"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/config"
+	"github.com/gaofanmichael/chaosmonkey/config/param"
+	"github.com/gaofanmichael/chaosmonkey/mock"
+	"github.com/gaofanmichael/chaosmonkey/schedule"
 )
 
 // TestSchedule verifies the schedule command generates a cron file with

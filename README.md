@@ -4,10 +4,10 @@
 
 [travis-badge]: https://travis-ci.org/Netflix/chaosmonkey.svg?branch=master
 [travis]: https://travis-ci.org/Netflix/chaosmonkey
-[godoc-badge]: https://godoc.org/github.com/Netflix/chaosmonkey?status.svg
-[godoc]: https://godoc.org/github.com/Netflix/chaosmonkey
-[report-badge]: https://goreportcard.com/badge/github.com/Netflix/chaosmonkey
-[report]: https://goreportcard.com/report/github.com/Netflix/chaosmonkey
+[godoc-badge]: https://godoc.org/github.com/gaofanmichael/chaosmonkey?status.svg
+[godoc]: https://godoc.org/github.com/gaofanmichael/chaosmonkey
+[report-badge]: https://goreportcard.com/badge/github.com/gaofanmichael/chaosmonkey
+[report]: https://goreportcard.com/report/github.com/gaofanmichael/chaosmonkey
 
 Chaos Monkey randomly terminates virtual machine instances and containers that
 run inside of your production environment. Exposing engineers to
@@ -34,7 +34,7 @@ Azure, Kubernetes, Cloud Foundry). It has been tested with AWS and Kubernetes.
 To install the Chaos Monkey binary on your local machine:
 
 ```
-go get github.com/netflix/chaosmonkey/cmd/chaosmonkey
+go get github.com/gaofanmichael/chaosmonkey/cmd/chaosmonkey
 ```
 
 ### How to deploy

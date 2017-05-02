@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/grp"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/grp"
 )
 
 // EligibleInstanceGroups returns a slice of InstanceGroups that represent

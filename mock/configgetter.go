@@ -14,7 +14,7 @@
 
 package mock
 
-import "github.com/Netflix/chaosmonkey"
+import "github.com/gaofanmichael/chaosmonkey"
 
 // ConfigGetter implements chaosmonkey.Getter
 type ConfigGetter struct{}

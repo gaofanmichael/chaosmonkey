@@ -22,10 +22,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/deploy"
-	"github.com/Netflix/chaosmonkey/deps"
-	"github.com/Netflix/chaosmonkey/grp"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/deploy"
+	"github.com/gaofanmichael/chaosmonkey/deps"
+	"github.com/gaofanmichael/chaosmonkey/grp"
 )
 
 type leashedKiller struct {

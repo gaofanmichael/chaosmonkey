@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Netflix/chaosmonkey/config"
-	"github.com/Netflix/chaosmonkey/config/param"
-	"github.com/Netflix/chaosmonkey/grp"
-	"github.com/Netflix/chaosmonkey/schedule"
+	"github.com/gaofanmichael/chaosmonkey/config"
+	"github.com/gaofanmichael/chaosmonkey/config/param"
+	"github.com/gaofanmichael/chaosmonkey/grp"
+	"github.com/gaofanmichael/chaosmonkey/schedule"
 )
 
 // addToSchedule schedules instanceId for termination at timeString

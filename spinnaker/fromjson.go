@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Netflix/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey"
 
 	"github.com/pkg/errors"
 )

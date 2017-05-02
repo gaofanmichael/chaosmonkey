@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/grp"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/grp"
 )
 
 type groupList []grp.InstanceGroup

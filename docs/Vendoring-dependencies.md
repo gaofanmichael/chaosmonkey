@@ -4,4 +4,4 @@ Please ensure that the license of the new dependency is compatible with Chaos Mo
 
 
 [1]: https://github.com/kardianos/govendor
-[2]: https://github.com/Netflix/chaosmonkey/blob/master/LICENSE
+[2]: https://github.com/gaofanmichael/chaosmonkey/blob/master/LICENSE

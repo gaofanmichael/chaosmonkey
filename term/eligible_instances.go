@@ -17,9 +17,9 @@ package term
 import (
 	"strings"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/deploy"
-	"github.com/Netflix/chaosmonkey/grp"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/deploy"
+	"github.com/gaofanmichael/chaosmonkey/grp"
 )
 
 // EligibleInstances returns a list of instances that belong to group that are eligible for termination

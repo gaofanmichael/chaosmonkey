@@ -19,8 +19,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/grp"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/grp"
 )
 
 // Test the whitelist logic

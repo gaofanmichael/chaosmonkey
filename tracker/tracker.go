@@ -16,9 +16,9 @@
 package tracker
 
 import (
-	"github.com/Netflix/chaosmonkey"
-	"github.com/Netflix/chaosmonkey/config"
-	"github.com/Netflix/chaosmonkey/deps"
+	"github.com/gaofanmichael/chaosmonkey"
+	"github.com/gaofanmichael/chaosmonkey/config"
+	"github.com/gaofanmichael/chaosmonkey/deps"
 	"github.com/pkg/errors"
 )
 
