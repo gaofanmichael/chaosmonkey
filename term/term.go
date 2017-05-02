@@ -85,6 +85,7 @@ func Terminate(d deps.Deps, app string, account string, region string, stack str
 	// create an instance group from the command-line parameters
 	group := grp.New(app, account, region, stack, cluster)
 
+	log.Printf("before terminate hahaha\nhahaha\nhahaha")
 	// do the actual termination
 	return doTerminate(d, group)
 
@@ -156,10 +157,10 @@ func doTerminate(d deps.Deps, group grp.InstanceGroup) error {
 	//
 	// Check that we don't violate min time between terminations
 	//
-	err = d.Checker.Check(trm, *appCfg, d.MonkeyCfg.EndHour(), loc)
-	if err != nil {
-		return errors.Wrap(err, "not terminating: check for min time between terminations failed")
-	}
+	// err = d.Checker.Check(trm, *appCfg, d.MonkeyCfg.EndHour(), loc)
+	// if err != nil {
+	// 	return errors.Wrap(err, "not terminating: check for min time between terminations failed")
+	// }
 
 	//
 	// Record the termination with configured trackers
@@ -185,10 +186,11 @@ func doTerminate(d deps.Deps, group grp.InstanceGroup) error {
 // PickRandomInstance randomly selects an eligible instance from a group
 func PickRandomInstance(group grp.InstanceGroup, cfg chaosmonkey.AppConfig, app *deploy.App) (chaosmonkey.Instance, bool) {
 	instances := EligibleInstances(group, cfg, app)
+	log.Printf("PickRandomInstance hahaha\nhahaha\nhahaha")
+
 	if len(instances) == 0 {
 		return nil, false
 	}
-	log.Println("chaosmonkey pick random instance")
 
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	index := r.Intn(len(instances))
