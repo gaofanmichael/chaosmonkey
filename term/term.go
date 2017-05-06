@@ -187,7 +187,9 @@ func doTerminate(d deps.Deps, group grp.InstanceGroup) error {
 func PickRandomInstance(group grp.InstanceGroup, cfg chaosmonkey.AppConfig, app *deploy.App) (chaosmonkey.Instance, bool) {
 	instances := EligibleInstances(group, cfg, app)
 	log.Printf("PickRandomInstance hahaha\nhahaha\nhahaha")
-	log.Printf(instances)
+	for i := 0; i < len(instances); i++ {
+		log.Printf("fonud instance : account=%s region=%s id=%s\n", instances[i].AccountName(), instances[i].RegionName(), instances[i].ID())
+	}
 	if len(instances) == 0 {
 		return nil, false
 	}
