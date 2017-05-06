@@ -147,10 +147,10 @@ func doTerminate(d deps.Deps, group grp.InstanceGroup) error {
 
 	log.Printf("Picked: %s", instance)
 
-	loc, err := d.MonkeyCfg.Location()
-	if err != nil {
-		return errors.Wrap(err, "not terminating: could not retrieve location")
-	}
+	// loc, err := d.MonkeyCfg.Location()
+	// if err != nil {
+	// 	return errors.Wrap(err, "not terminating: could not retrieve location")
+	// }
 
 	trm := chaosmonkey.Termination{Instance: instance, Time: d.Cl.Now(), Leashed: leashed}
 
@@ -187,7 +187,7 @@ func doTerminate(d deps.Deps, group grp.InstanceGroup) error {
 func PickRandomInstance(group grp.InstanceGroup, cfg chaosmonkey.AppConfig, app *deploy.App) (chaosmonkey.Instance, bool) {
 	instances := EligibleInstances(group, cfg, app)
 	log.Printf("PickRandomInstance hahaha\nhahaha\nhahaha")
-
+	log.Printf(instances)
 	if len(instances) == 0 {
 		return nil, false
 	}
